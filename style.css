@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    justify-content: center;
+    user-select:none;
+}
+.content {
+display: flex;
+justify-content: center;
+/* margin-top: 8%; */
+}
+.top {
+    display: inline-block;
+    width: 42em;
+    height: 42em;
+    /* display:flex;
+    flex-wrap:wrap;
+    justify-content: center; */
+}
+.general {
+    border: 0.3em solid black;
+    width: 40em;
+    height: 40em;
+    background-color: rgb(166, 129, 201);
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+
+
+.panel-score {
+    border: 3px solid black;
+    border-bottom: 0;
+    border-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 75.6%;
+    background-color: blue;
+    /* pointer-events: none; */
+}
+.score {
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 160%;
+    /* pointer-events: none; */
+}
+
+.cell {
+    width: 12%;
+    height: 12%;
+    padding: 5%;
+    margin: 5%;
+    background-color: aqua;
+    border: 0.3em solid black;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 6rem;
+    margin: 0;
+    padding: 0;
+}
+
+#winner {
+    /* pointer-events: none; */
+    display: flex;
+    font-family:fantasy; 
+    font-size:2rem;
+    color: rgb(176, 223, 241);
+    text-align: center;
+    width: 95.5%;
+    height: 1.8em;
+    margin-left: 0.38em;
+    background-color: rgb(37, 147, 180);
+    border: 3px solid black;
+    border-bottom: 0;
+    justify-content: center;
+    align-content: center;
+}
+
+.blocked {
+    width: 12%;
+    height: 12%;
+    padding: 5%;
+    margin: 5%;
+    background-color: aqua;
+    border: 0.3em solid black;
+    display: flex;
+    align-items: center;
+    /* pointer-events: none; */
+}
+
+.button-restart {
+    display: block;
+    margin-left: 0.75em;
+    border: 3px solid black;
+    border-bottom: 0;
+    width: 4em;
+    height: 2.5em;
+    font-family:fantasy;
+    font-size:medium;
+    text-align: start;
+    background-color: greenyellow;
+    text-align: center;
+    
+}
+
+.button-Clear {
+    display: block;
+    /* margin-left: 0.75em; */
+    border: 3px solid black;
+    border-bottom: 0;
+    border-left: 0;
+    width: 4em;
+    height: 2.5em;
+    font-family:fantasy;
+    font-size:medium;
+    text-align: start;
+    background-color: greenyellow;
+    text-align: center;
+}
+.panel {
+    margin-top: 8em;
+    display: flex;
+    /* pointer-events: none; */
+
+    
+}
